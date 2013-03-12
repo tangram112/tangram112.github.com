@@ -13,7 +13,8 @@ body {
 .container {
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  /*dartst margin: 0 auto;*/
+  margin: 0 20px;
 }
 
 section {
@@ -22,7 +23,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
+  /* dartst margin: 0 0 20px; */
 }
 
 li {
@@ -39,7 +40,8 @@ header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
+  /* dartst
+  padding: 20px 0;   */
   margin: 0 0 40px 0;
 }
 
