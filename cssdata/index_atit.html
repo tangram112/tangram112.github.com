@@ -5,6 +5,9 @@
 	<meta name="author" content="dmlodziejewski">		
 		
         <style type="text/css">
+			#oplywanie {
+			width: 100%;
+			}			
             table { border-collapse: collapse; width: 300px; }
             td { border: 1px solid black; }
             .pr05 { padding-right: 0.5em; }
@@ -19,9 +22,17 @@
             .table-style { margin-top: 50px; }
             .table-style > thead { background: #ddffee; }
             .table-style > tbody { background: #eeffdd; }
+			#oplywanie table {
+			/*width: 300px;*/
+			margin-top: 40px;
+			margin-right: 40px;
+			margin-bottom: 20px;
+			float: left;
+			}						
         </style>
     </head>
     <body>
+	<div id="oplywanie">
         <table>
 
             <colgroup>
@@ -146,5 +157,6 @@
                 </tr>
             </tbody>
         </table>
+	</div>
     </body>
 </html>

@@ -4,6 +4,10 @@
     <title>Populacja</title>
 	<meta name="author" content="dmlodziejewski">		
         <style type="text/css">
+			#oplywanie {
+			width: 500px;
+			}
+		
             table { border-collapse:collapse; border: 1px solid black; }
             
             .year { text-align: center; border: 1px solid black; }
@@ -13,12 +17,22 @@
             .population { text-align: right; padding: 0px 15px; border: 1px solid black; }
             .populations { text-align: right; padding: 0px 15px; }
             
-            .table-style { margin-top: 50px;}
+            /* .table-style { margin-top: 50px;} */
             .table-style > thead { background: #bbbbee; }
             .table-style > tbody { background: #ffffcc; }
+			
+			#oplywanie table {
+			width: 200px;
+			margin-top: 40px;
+			margin-right: 40px;
+			margin-bottom: 20px;
+			float: left;
+			}
         </style>
     </head>
     <body>
+	<div id="oplywanie">
+	
         <table>
 
             <colgroup width="35px">
@@ -118,5 +132,6 @@
                 </tr>
             </tbody>
         </table>
+	</div>
     </body>
 </html>
